@@ -1,5 +1,8 @@
 # Stackzilla Provider Template Repository
 
+## INSTRUCTIONS ON USING THIS TEMPLATE
+After creating a new repository with this template, find and replace ALL instances of "<provider_name>" with the name of your provider. At that point, all invoke tasks, and GitHub workflows should be operational. 
+
 <p align="center">
     <img src="https://github.com/Stackzilla/stackzilla/blob/main/docs/assets/images/zilla_and_blocks.png?raw=true"  alt="stackzilla" width="500"/>
 </p>
