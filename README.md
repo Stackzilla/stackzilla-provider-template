@@ -1,7 +1,9 @@
 # Stackzilla Provider Template Repository
 
 ## INSTRUCTIONS ON USING THIS TEMPLATE
-After creating a new repository with this template, find and replace ALL instances of "<provider_name>" with the name of your provider. At that point, all invoke tasks, and GitHub workflows should be operational. 
+1) After creating a new repository with this template, find and replace ALL instances of "<provider_name>" with the name of your provider. At that point, all invoke tasks, and GitHub workflows should be operational.
+2) Rename the ./stackzilla/provider/< provider_name >/ directory to match the name of your provider
+3) Rename the `resource.py` file in the directory that you renamed in step 2 to match whatever your resource is. Example: if I'm creating a provider for AWS EC2 instances, I'd likely call that file `instance.py`.
 
 <p align="center">
     <img src="https://github.com/Stackzilla/stackzilla/blob/main/docs/assets/images/zilla_and_blocks.png?raw=true"  alt="stackzilla" width="500"/>
